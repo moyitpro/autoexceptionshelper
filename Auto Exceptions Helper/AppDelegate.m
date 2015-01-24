@@ -134,7 +134,7 @@
             NSURL *url = [sp URL];
             //Create JSON string from array controller
             NSError *error;
-            NSDictionary * jsonOutput = [[NSDictionary alloc] initWithObjectsAndKeys:detectedfilefield.stringValue,@"detectedtitle", correcttitlefield.stringValue, @"correcttitle", grouptextfield.stringValue, @"group", episodethresholdfield.stringValue.integerValue, @"threshold", epioffsetfield.stringValue.integerValue, @"offset", nil];
+            NSDictionary * jsonOutput = [[NSDictionary alloc] initWithObjectsAndKeys:detectedfilefield.stringValue,@"detectedtitle", correcttitlefield.stringValue, @"correcttitle", grouptextfield.stringValue, @"group", [NSNumber numberWithInt:episodethresholdfield.stringValue.intValue], @"threshold", [NSNumber numberWithInt:epioffsetfield.stringValue.intValue], @"offset", nil];
             NSData *jsonData = [NSJSONSerialization dataWithJSONObject:jsonOutput
                                                            options:0
                                                              error:&error];

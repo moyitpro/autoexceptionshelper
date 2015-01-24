@@ -1,6 +1,8 @@
 # About this tool
 This tool helps automate the Auto Anime Exceptions process. Users can generate entries by using this easy to use program and then submit the contents of the JSON file.
 
+[Download](https://github.com/chikorita157/autoexceptionshelper/releases/download/1.0/Auto.Exceptions.Helper.zip)
+
 # How to
 1. Pull the detected file from a file to stream. You can do this by choosing any of the options on the toolbar. If you choose stream detection, make sure to have a browser window open that contains the stream.
 2. Find the correct title or type it in. If you don't know the title as shown on MyAnimeList, then click Find Title and it will search it for you. Select the correct title and the program will automatically fill it in along with the episode threshold.
